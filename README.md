@@ -1,16 +1,8 @@
-**React1**(in đậm)
-#React1(h1)
-*React1*(in nghiêng)
+##Git branch
 
-ul, li
-- Đây là ul li
+`git branch feature/login` : tạo nhánh feature/login
+`git checkout -b feature/register`: tạo một nhánh mới feature/register và checkout sang nhánh đó
+`git switch -c feature/register`: tương tự
 
-[Đây là thẻ a](https://picsum.photos/)
-![](./anime.jpg)
-
-Đây là `git bash`
-
-Đây là code `js`
-```js
-    const a= 200
-```
+`git branch -r` : Các nhánh ở local
+`git branch -a` : Các nhánh ở remote
